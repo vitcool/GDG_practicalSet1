@@ -14,14 +14,7 @@
         android:scaleType="centerCrop"/>
 
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_dd"
-            android:layout_toRightOf="@id/firstTeam"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="16dp"
-            />
+
 
 
             <TextView
@@ -35,6 +28,15 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:text="\''Dnipro\''"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_dd"
+        android:layout_toRightOf="@id/firstTeam"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        />
 
 
 
