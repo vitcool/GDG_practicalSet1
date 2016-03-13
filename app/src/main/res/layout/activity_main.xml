@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vitalykulyk.practicalset1.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_background"
+        android:scaleType="centerCrop"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_dd"
+            android:layout_toRightOf="@id/firstTeam"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            />
+
+
+            <TextView
+                android:id="@+id/firstTeam"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="48dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="\''Dnipro\''"/>
+
+
+
+            <TextView
+                android:id="@+id/firstTown"
+                android:layout_below="@id/firstTeam"
+                android:paddingLeft="16dp"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:text="Dnipropetrovsk"/>
+
+
+    <TextView
+        android:id="@+id/secondTeam"
+        android:layout_below="@id/firstTown"
+        android:paddingLeft="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="\''Shakhtar\''"/>
+
+    <TextView
+        android:id="@+id/secondTown"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/secondTeam"
+        android:paddingRight="16dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:text="Donetsk"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_sd"
+        android:layout_toLeftOf="@id/secondTeam"
+        android:layout_below="@id/firstTown"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/imageView"/>
+
+
+
+        <TextView
+            android:id="@+id/stadium"
+            android:paddingRight="16dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:textSize="36sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            android:text="Dnipro-arena stadium"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_below="@id/stadium"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            android:text="Sunday, March 13, 19:30"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            />
+
+
+
+</RelativeLayout>
